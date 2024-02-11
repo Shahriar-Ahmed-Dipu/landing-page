@@ -22,11 +22,32 @@ body{
 }
 
 
+
+
+.section-title{
+    color:#181818;
+    text-align : center;
+    font-size: 35px;
+    font-weight:700;
+
+}
+.section-description{
+color:#757575;
+text-align:center;
+font-size:18px;
+
+    }
+    
+
+
 /*HEADER*/
 /*Header Nav style*/
 
 header{
     background-color:#FFF8F3;
+    background-image:url("images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position:bottom right;
 }
 
 
@@ -68,23 +89,47 @@ nav>ul>li>a{
 
 
 .banner{
-    padding:3% 3% 3% 10%;
+    padding:3% 3% 0% 10%;
     display:flex;
     align-items:center;
 }
 
 .banner-title{
     color:#474747;
+  
+    font-size:45px;
 }
-.button-title-name{
+.banner-title-name{
     color:#181818;
+    font-size:85px;
+    font-weight:700px;  
+    margin-top:7px;
+    margin-bottom:20px;
+
+
 }
 
 .banner-detail{
     color:#757575;
+    margin-bottom:20px;
 }
 
 
 .profile-photo{
     max-width:50%;    /*it was 500px*/
 }
+
+
+/* Main Section Sytle*/
+
+/* About section*/
+
+
+.about{
+    padding:130px;
+    border-radius:10px;
+    background:#FFF8F3;
+    margin:130px 0;
+}
+
+
