@@ -47,9 +47,10 @@ line-height:1.5;
 
 header{
     background-color:#FFF8F3;
-    background-image:url("images/header_bg.png");
+    background-image:url("images/header_bg.png"),url("images/developer.png");
     background-repeat:no-repeat;
-    background-position:bottom right;
+    background-position:bottom right, top 10px left 10px;
+    padding:20px 0;
 }
 
 
@@ -115,6 +116,19 @@ nav>ul>li>a{
     color:#757575;
     margin-bottom:20px;
 }
+
+
+.btn-contact{
+    margin-left:20px;
+    border:2px solid #FD6E0A;
+    color:#FD6E0A;
+    background-color:white;
+    font-size:20px;
+    border-radius:3px;
+    padding:18px 35px;
+    font-weight:600;
+}
+
 
 
 .profile-photo{
@@ -246,6 +260,7 @@ hr{
 
 
 /* Footer Style */
+
 footer{
     display:flex;
     padding:130px 200px;
@@ -267,6 +282,9 @@ footer{
     border:0;
     background-color:#fff;
     width:90%;
+}
+.social-icon {
+    margin-top:20px;
 }
 .social-icon a{
     margin-right:25px;
