@@ -57,7 +57,7 @@ header{
     background-image:url("images/header_bg.png"),url("images/developer.png");
     background-repeat:no-repeat;
     background-position:bottom right, top 10px left 10px;
-    padding:20px 0;
+    padding-top:20px;
 }
 
 
@@ -160,7 +160,7 @@ nav>ul>li>a{
 }
 
 main{
-    width:1140px;
+    max-width:1140px;
     margin:0 auto;
 }
 
@@ -303,4 +303,155 @@ footer{
 
 .footer-title{
     margin-bottom:25px;
+}
+
+
+@media screen and  (max-width:576px){
+    header{
+        background-image:none;
+    }
+    nav{
+        gap:20px;
+    }
+    .profile-photo{
+    display:none;
+    }
+    .banner-title{
+        font-size:25px;
+    }
+    .banner-title-name{
+        font-size:35px;
+    }
+    nav > ul > li{
+        margin-right:40px;
+    }
+    
+    nav,.skill-boxes{
+        flex-direction:column;
+       
+    }
+.baner.description-para{
+    padding:20px;
+}
+    .section-description{
+        padding:20px;
+    }
+    .resume-container{
+        flex-direction:column;
+        padding:20px;
+    }
+    
+footer{
+    padding:0;
+    flex-direction: column;
+    justify-content:center;
+}
+.footer-column{
+    width:90%;
+    padding:35px;
+   
+}
+.section-title{
+    font-size:30px;
+}
+.contact input[type="text"],
+.contact input[type="email"],textarea{
+    width:70%;
+}
+
+.btn-contact, .primary-button{
+    padding:8px ;
+    font-size:0.9em;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.resume-title{
+    font-size:30px;
+}
+
+
+.about{
+    padding:5% 2%;
+}
+
+.about-container{
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+.about-info{
+    width:50%;
+    margin-bottom:20px;
+}
+.description-para{
+    padding:2%;
+}
+/* .footer-description{
+    padding-right:10px;
+} */
+}
+@media screen and (min-width:576px) and (max-width:992px){
+   
+    .resume-container{
+        flex-direction:column;
+        padding:20px;
+    }
+    .skill-boxes{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+  .box{
+    width:40%;
+  }
+  .resume-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.resume-col{
+  
+    padding-left:20px;
+}
+footer{
+    padding:0;
+    gap:0;
+  
+}
+.footer-column{
+    width:100%;
+    padding:40px;
+  
+}
+.contact input[type="text"],
+.contact input[type="email"],textarea{
+    width:70%;
+    padding-left:45px;
+}
+
+.primary-button{
+    padding:9px 17px;
+}
+.resume-title{
+    font-size:35px;
+}
+header{
+    background-image:url("images/header_bg.png");
+    background-size:65%;
+    padding-bottom:0px;
+}
+.btn-contact, .primary-button{
+    padding:8px ;
+    font-size:1.2em;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.banner-title{
+    font-size:30px;
+}
+.banner-title-name{
+    font-size:40px;
+}
 }
